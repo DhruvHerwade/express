@@ -1,0 +1,10 @@
+1. dba.deploySandboxInstance(3310); * 3
+2. shell.connect('root@localhost:3310');
+3. cluster = dba.createCluster('devC');
+4. cluster.addInstance('root@localhost:3320');
+
+
+1. mysqlrouter --bootstrap root@localhost:3310 -d mysql-router
+2. start /B mysqlrouter -c %HOMEPATH%\mysql-router\mysqlrouter.conf
+
+1. mysqlsh root@localhost:6446

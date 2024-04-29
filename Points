@@ -1,0 +1,15 @@
+For CASSANDRA ->
+1. Go to bin to enter commands like 
+  a. cassandra -f
+  b. cqlsh
+
+2. Changes in 4 files
+  a. yml -> seeds => {ip_addresses}, listen_address => our_ip
+  b. ps1 -> JMX port 
+  c. bat -> JMX port
+  d. ps1 -> comment verifyPorts
+
+3. Start.
+
+4. Python 2.7.17, JDK 8, Cassandra 3.11.4
+5. Setup paths in environment variables.
